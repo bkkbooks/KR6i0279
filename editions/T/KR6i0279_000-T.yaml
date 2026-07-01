@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0279/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說首楞嚴三昧經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0642.xml
+    old_id: T15n0642
+hash: sha256:d39c36d6a74e80920eb928e0e1855af6d8fe3a862eed27f3abfdd4c47290666e

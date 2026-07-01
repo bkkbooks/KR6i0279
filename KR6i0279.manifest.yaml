@@ -1,0 +1,69 @@
+canonical_identifier: bkk:krp/KR6i0279/v1
+canonical_location: https://kanripo.org/bkk/KR6i0279/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說首楞嚴三昧經
+  identifiers:
+    alt_id:
+    - T15n0642
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0642.xml
+    old_id: T15n0642
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 房山-CB
+  label: 房山-CB
+  source_xml_id: wit5
+- short: 金藏乙-CB
+  label: 金藏乙-CB
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0279_000.yaml, hash: 'sha256:d39c36d6a74e80920eb928e0e1855af6d8fe3a862eed27f3abfdd4c47290666e'}
+  - {seq: 1, filename: KR6i0279_001.yaml, hash: 'sha256:fe6a8d492f6d76c3112fc71b6c6533ca1a039935ef88fbbce6242b391af6f6ef'}
+  - {seq: 2, filename: KR6i0279_002.yaml, hash: 'sha256:a63922c079e45328df28009c795215d161e311441e0d5d4753e3728f85a1ec00'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0279_001.markers.yaml, hash: 'sha256:429a2a5bca1b78173c881407508efb858dcc05d9b0326699adc0fe442fe12f2f'}
+  - {seq: 2, role: markers, filename: assets/KR6i0279_002.markers.yaml, hash: 'sha256:5cc5bc8629a18f67839b057f4eec7c3a0acfdab79bebf7d64fdb4cc6696c9b46'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0279_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 11390
+  label: 佛說首楞嚴三昧經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0279_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 11894
+  label: 佛說首楞嚴三昧經卷下
+  type: juan
+  level: 1
+hash: sha256:31f03c385e9431ce5c32b902252b2745f90fba5f1c4943e2cc1c6a4e49b57889
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
