@@ -37,11 +37,12 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0279_000.yaml, hash: 'sha256:d39c36d6a74e80920eb928e0e1855af6d8fe3a862eed27f3abfdd4c47290666e'}
-  - {seq: 1, filename: KR6i0279_001.yaml, hash: 'sha256:fe6a8d492f6d76c3112fc71b6c6533ca1a039935ef88fbbce6242b391af6f6ef'}
-  - {seq: 2, filename: KR6i0279_002.yaml, hash: 'sha256:a63922c079e45328df28009c795215d161e311441e0d5d4753e3728f85a1ec00'}
+  - {seq: 1, filename: KR6i0279_001.yaml, hash: 'sha256:21082abaacaea6491a3664af786e33c3b74c7457e6ee9cdc3b1e8e3e95f3d3fb'}
+  - {seq: 2, filename: KR6i0279_002.yaml, hash: 'sha256:d0ff52609c7184e3f58667864d913a40a36dfab4b170b1ac88954845d5737067'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0279_001.markers.yaml, hash: 'sha256:429a2a5bca1b78173c881407508efb858dcc05d9b0326699adc0fe442fe12f2f'}
-  - {seq: 2, role: markers, filename: assets/KR6i0279_002.markers.yaml, hash: 'sha256:5cc5bc8629a18f67839b057f4eec7c3a0acfdab79bebf7d64fdb4cc6696c9b46'}
+  - {seq: 0, role: markers, filename: assets/KR6i0279_000.markers.yaml, hash: 'sha256:bf3520ebf796cdae996fae6026eb34c936cb5ca1208ffa165a1cadc18ff6a475'}
+  - {seq: 1, role: markers, filename: assets/KR6i0279_001.markers.yaml, hash: 'sha256:019ee3d6b4dcc7fbb426e87531c353341d82fc1f3e1b8a5751cd645369abe019'}
+  - {seq: 2, role: markers, filename: assets/KR6i0279_002.markers.yaml, hash: 'sha256:bb15fdcba957d95512c2335a0b46c31ffdd641b3112cbb65f0f79b5193999c7a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -63,7 +64,4 @@ table_of_contents:
   label: 佛說首楞嚴三昧經卷下
   type: juan
   level: 1
-hash: sha256:31f03c385e9431ce5c32b902252b2745f90fba5f1c4943e2cc1c6a4e49b57889
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:ad73fb3786c7dc89cc7ff1fb85d7da29a8670ec5a262677a3e59b35593bd6198
